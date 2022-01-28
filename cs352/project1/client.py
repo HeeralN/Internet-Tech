@@ -21,8 +21,35 @@ def client():
     cs.connect(server_binding)
 
     # Receive data from the server
+    data_from_server=cs.recv(200)
+    print("[C]: Data received from server: {}".format(data_from_server.decode('utf-8')))
+
+    # STEP 4
+    # send a intro message to the client.  
+    msg = "Welcome to CS 352!"
+    cs.send(msg.encode('utf-8'))
+    
+    # Retrieve reversed message from server
     data_from_server=cs.recv(100)
     print("[C]: Data received from server: {}".format(data_from_server.decode('utf-8')))
+    # FINISHED STEP 4
+
+    # STEP 5
+    filemsg = open('in-proj.txt','r')
+
+    all_lines = []
+    for line in filemsg.readlines():
+        all_lines.append(line[:-1])
+    
+    length = str(len(all_lines))
+    cs.send(length.encode('utf-8'))
+    for curr_line in all_lines:
+        time.sleep(random.random() * 1)
+        cs.send(curr_line.encode('utf-8'))
+    
+    filemsg.close()
+    print("[C]: Step 5 - Sent file data to server")
+    # FINISHED STEP 5
 
     # close the client socket
     cs.close()
@@ -30,10 +57,6 @@ def client():
 
 
 if __name__ == "__main__":
-    # t1 = threading.Thread(name='server', target=server)
-    # t1.start()
-
-    # time.sleep(random.random() * 5)
     t2 = threading.Thread(name='client', target=client)
     t2.start()
 
