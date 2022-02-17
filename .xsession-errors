@@ -1,0 +1,2232 @@
+Xsession: X session started for hnn13 at Tue 08 Feb 2022 12:36:11 PM EST
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/88518/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:hnn13 being added to access control list
+dbus-update-activation-environment: setting GTK_MODULES=appmenu-gtk-module:gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANGUAGE=en_US.UTF-8
+dbus-update-activation-environment: setting USER=hnn13
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting HOME=/common/home/hnn13
+dbus-update-activation-environment: setting GTK_MODULES=appmenu-gtk-module:gail:atk-bridge
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/88518/bus
+dbus-update-activation-environment: setting LIBVIRT_DEFAULT_URI=qemu:///system
+dbus-update-activation-environment: setting UBUNTU_MENUPROXY=1
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=hnn13
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting LC_TYPE=en_US.UTF-8 
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/88518
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting UID=88518
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting KRB5CCNAME=KEYRING:persistent:88518
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/88518/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/default-java
+dbus-update-activation-environment: setting PWD=/common/home/hnn13
+dbus-update-activation-environment: setting LC_ALL=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting GUACAMOLE=true
+mate-session-check-accelerated: GL Helper exited with code 512
+mate-session-check-accelerated: GLES Helper exited with code 512
+** Message: 12:36:11.376: couldn't access control socket: /run/user/88518/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+mate-session[1942092]: WARNING: Unable to find provider '' of required component 'dock'
+
+** (mate-settings-daemon:1942244): WARNING **: 12:36:11.487: Could not open RFKILL control device, please verify your installation
+Window manager warning: Log level 128: unsetenv() is not thread-safe and should not be used after threads are created
+Window manager warning: Log level 128: Name com.canonical.AppMenu.Registrar does not exist on the session bus
+
+mate-session[1942092]: WARNING: Could not launch application 'blueman.desktop': Unable to start application: Failed to execute child process “blueman-applet” (No such file or directory)
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+caja-dropbox is not installed, doing nothing.
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+
+(process:1942443): indicator-sound-WARNING **: 12:36:16.742: volume-control-pulse.vala:744: Unable to connect to dbus server at 'unix:path=/run/user/88518/pulse/dbus-socket': Could not connect: No such file or directory
+
+(caja:1942277): Gtk-WARNING **: 12:36:16.742: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+
+** (xiccd:1942420): WARNING **: 12:36:21.812: EDID is empty
+
+** (xiccd:1942420): CRITICAL **: 12:36:21.814: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+
+** (xiccd:1942420): CRITICAL **: 12:36:21.818: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+
+** (xiccd:1942420): CRITICAL **: 12:36:21.822: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+
+** (xiccd:1942420): CRITICAL **: 12:36:21.832: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+** (light-locker:1942364): ERROR **: 12:36:26.920: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+no maximize: true
+mate-optimus-applet: launched.
+  - nvidia-settings and prime-select detected.
+  - prime-supported: No
+mate-optimus-applet: NVIDIA Optimus is not supported.
+Initializing caja-open-terminal extension
+RuntimeError: object at 0x7fc17f202b00 of type RenameMenu is not initialized
+RuntimeError: object at 0x7fc17f20fd00 of type FolderColorMenu is not initialized
+*** ERROR ***
+TI:12:36:32	TH:0x55dc0475a040	FI:gpm-manager.c	FN:gpm_manager_systemd_inhibit,1786
+ - Error in dbus - GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+Traceback:
+	mate-power-manager(+0x1d1e4) [0x55dc02faa1e4]
+	mate-power-manager(+0x1466b) [0x55dc02fa166b]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_type_create_instance+0x30d) [0x7f31a6a471dd]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(+0x1a34d) [0x7f31a6a2634d]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_object_new_with_properties+0x275) [0x7f31a6a27b45]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_object_new+0xc1) [0x7f31a6a286f1]
+	mate-power-manager(+0x15d06) [0x55dc02fa2d06]
+	mate-power-manager(+0xb1aa) [0x55dc02f981aa]
+	/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f31a65a60b3]
+	mate-power-manager(+0xb52e) [0x55dc02f9852e]
+Window manager warning: Log level 16: Visible region is null
+INFO:root:The HUD is disabled via org.mate.hud in gsettings.
+Window manager warning: Log level 16: Visible region is null
+Window manager warning: Log level 8: g_main_loop_is_running: assertion 'loop != NULL' failed
+
+** (mate-settings-daemon:1942244): WARNING **: 12:36:44.213: failed to send session response: Connection was disconnected before a reply was received
+
+(deja-dup-monitor:1942403): GVFS-RemoteVolumeMonitor-WARNING **: 12:36:44.217: Owner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(deja-dup-monitor:1942403): GVFS-RemoteVolumeMonitor-WARNING **: 12:36:44.218: Owner of volume monitor org.gtk.vfs.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+Indicator-Datetime-Message: 12:36:44.218: indicator-datetime exiting; failed/lost bus ownership
+
+(process:1942443): indicator-sound-WARNING **: 12:36:44.218: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+** (xiccd:1942420): WARNING **: 12:36:44.219: Exiting
+
+(process:1942402): indicator-application-service-WARNING **: 12:36:44.220: Name Lost
+[1644341771,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
+Terminated
+Window manager warning: Log level 8: g_main_loop_is_running: assertion 'loop != NULL' failed
+
+(process:1942443): GLib-GObject-CRITICAL **: 12:36:44.281: g_object_ref: assertion 'old_val > 0' failed
+
+(process:1942443): GLib-GIO-CRITICAL **: 12:36:44.281: Error while sending AddMatch() message: The connection is closed
+
+(process:1942443): GLib-GIO-CRITICAL **: 12:36:44.281: Error while sending AddMatch() message: The connection is closed
+
+(process:1942443): GLib-GIO-CRITICAL **: 12:36:44.281: Error while sending AddMatch() message: The connection is closed
+
+(process:1942443): GLib-GIO-CRITICAL **: 12:36:44.281: Error while sending AddMatch() message: The connection is closed
+Xsession: X session started for hnn13 at Tue 08 Feb 2022 12:36:52 PM EST
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/88518/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:hnn13 being added to access control list
+dbus-update-activation-environment: setting GTK_MODULES=appmenu-gtk-module:gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANGUAGE=en_US.UTF-8
+dbus-update-activation-environment: setting USER=hnn13
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting HOME=/common/home/hnn13
+dbus-update-activation-environment: setting GTK_MODULES=appmenu-gtk-module:gail:atk-bridge
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/88518/bus
+dbus-update-activation-environment: setting LIBVIRT_DEFAULT_URI=qemu:///system
+dbus-update-activation-environment: setting UBUNTU_MENUPROXY=1
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=hnn13
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting LC_TYPE=en_US.UTF-8 
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/88518
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting UID=88518
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting KRB5CCNAME=KEYRING:persistent:88518
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/88518/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/default-java
+dbus-update-activation-environment: setting PWD=/common/home/hnn13
+dbus-update-activation-environment: setting LC_ALL=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting GUACAMOLE=true
+mate-session-check-accelerated: GL Helper exited with code 512
+mate-session-check-accelerated: GLES Helper exited with code 512
+** Message: 12:36:52.668: couldn't access control socket: /run/user/88518/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+mate-session[1943069]: WARNING: Unable to find provider '' of required component 'dock'
+
+** (mate-settings-daemon:1943221): WARNING **: 12:36:52.776: Could not open RFKILL control device, please verify your installation
+Window manager warning: Log level 128: unsetenv() is not thread-safe and should not be used after threads are created
+Window manager warning: Log level 128: Name com.canonical.AppMenu.Registrar does not exist on the session bus
+
+mate-session[1943069]: WARNING: Could not launch application 'blueman.desktop': Unable to start application: Failed to execute child process “blueman-applet” (No such file or directory)
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+caja-dropbox is not installed, doing nothing.
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+
+(process:1943423): indicator-sound-WARNING **: 12:36:58.210: volume-control-pulse.vala:744: Unable to connect to dbus server at 'unix:path=/run/user/88518/pulse/dbus-socket': Could not connect: No such file or directory
+
+(caja:1943260): Gtk-WARNING **: 12:36:58.210: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+
+** (xiccd:1943399): WARNING **: 12:37:03.280: EDID is empty
+
+** (xiccd:1943399): CRITICAL **: 12:37:03.282: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+
+** (xiccd:1943399): CRITICAL **: 12:37:03.287: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+
+** (xiccd:1943399): CRITICAL **: 12:37:03.292: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+
+** (xiccd:1943399): CRITICAL **: 12:37:03.305: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+no maximize: true
+
+** (light-locker:1943342): ERROR **: 12:37:08.395: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+mate-optimus-applet: launched.
+  - nvidia-settings and prime-select detected.
+  - prime-supported: No
+mate-optimus-applet: NVIDIA Optimus is not supported.
+*** ERROR ***
+TI:12:37:08	TH:0x5646eb197440	FI:gpm-manager.c	FN:gpm_manager_systemd_inhibit,1786
+ - Error in dbus - GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+Traceback:
+	mate-power-manager(+0x1d1e4) [0x5646e9e011e4]
+	mate-power-manager(+0x1466b) [0x5646e9df866b]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_type_create_instance+0x30d) [0x7fd7678751dd]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(+0x1a34d) [0x7fd76785434d]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_object_new_with_properties+0x275) [0x7fd767855b45]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_object_new+0xc1) [0x7fd7678566f1]
+	mate-power-manager(+0x15d06) [0x5646e9df9d06]
+	mate-power-manager(+0xb1aa) [0x5646e9def1aa]
+	/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fd7673d40b3]
+	mate-power-manager(+0xb52e) [0x5646e9def52e]
+INFO:root:The HUD is disabled via org.mate.hud in gsettings.
+Initializing caja-open-terminal extension
+RuntimeError: object at 0x7f1823d3b780 of type RenameMenu is not initialized
+RuntimeError: object at 0x7f1823d48c00 of type FolderColorMenu is not initialized
+Gdk-Message: 12:47:20.011: mate-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+
+Xsession: X session started for hnn13 at Tue 08 Feb 2022 12:47:31 PM EST
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/88518/bus
+dbus-update-activation-environment: setting DISPLAY=:11.0
+localuser:hnn13 being added to access control list
+dbus-update-activation-environment: setting GTK_MODULES=appmenu-gtk-module:gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANGUAGE=en_US.UTF-8
+dbus-update-activation-environment: setting USER=hnn13
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting HOME=/common/home/hnn13
+dbus-update-activation-environment: setting GTK_MODULES=appmenu-gtk-module:gail:atk-bridge
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_11
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_11
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/88518/bus
+dbus-update-activation-environment: setting LIBVIRT_DEFAULT_URI=qemu:///system
+dbus-update-activation-environment: setting UBUNTU_MENUPROXY=1
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=hnn13
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting LC_TYPE=en_US.UTF-8 
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/88518
+dbus-update-activation-environment: setting DISPLAY=:11.0
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting UID=88518
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting KRB5CCNAME=KEYRING:persistent:88518
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/88518/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/default-java
+dbus-update-activation-environment: setting PWD=/common/home/hnn13
+dbus-update-activation-environment: setting LC_ALL=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting GUACAMOLE=true
+mate-session-check-accelerated: GL Helper exited with code 512
+mate-session-check-accelerated: GLES Helper exited with code 512
+** Message: 12:47:31.887: couldn't access control socket: /run/user/88518/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+mate-session[1946664]: WARNING: Unable to find provider '' of required component 'dock'
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: atk-bridge: get_device_events_reply: unknown signature
+mate-session[1946664]: WARNING: atk-bridge: get_device_events_reply: unknown signature
+mate-session[1946664]: WARNING: atk-bridge: GetRegisteredEvents returned message with unknown signature
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: atk-bridge: get_device_events_reply: unknown signature
+mate-session[1946664]: WARNING: atk-bridge: get_device_events_reply: unknown signature
+mate-session[1946664]: WARNING: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.004: Could not open RFKILL control device, please verify your installation
+Window manager warning: Log level 128: unsetenv() is not thread-safe and should not be used after threads are created
+Window manager warning: Log level 128: Name com.canonical.AppMenu.Registrar does not exist on the session bus
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: atk-bridge: get_device_events_reply: unknown signature
+Window manager warning: Log level 16: atk-bridge: get_device_events_reply: unknown signature
+Window manager warning: Log level 16: atk-bridge: GetRegisteredEvents returned message with unknown signature
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: atk-bridge: get_device_events_reply: unknown signature
+Window manager warning: Log level 16: atk-bridge: get_device_events_reply: unknown signature
+Window manager warning: Log level 16: atk-bridge: GetRegisteredEvents returned message with unknown signature
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.086: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.086: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.103: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.103: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.103: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.103: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.103: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.103: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.103: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.103: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.107: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.107: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.107: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.107: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.107: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.110: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.111: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.114: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.114: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.114: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-panel:1946824): WARNING **: 12:47:32.114: atk-bridge: GetRegisteredEvents returned message with unknown signature
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.123: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: 
+** (mate-panel:1946824): WARNING **: 12:47:32.142: AT-SPI: Could not obtain desktop path or name
+
+Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.145: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.148: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.148: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.148: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.148: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.148: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.148: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.148: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: Could not launch application 'blueman.desktop': Unable to start application: Failed to execute child process “blueman-applet” (No such file or directory)
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.151: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.151: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.160: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.160: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.174: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.174: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.174: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.180: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.185: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.189: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.190: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.190: AT-SPI: Could not obtain desktop path or name
+
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+
+** (xiccd:1946966): WARNING **: 12:47:32.195: EDID is empty
+
+** (mate-panel:1946824): WARNING **: 12:47:32.197: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: 
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.198: AT-SPI: Could not obtain desktop path or name
+
+Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (light-locker:1946899): ERROR **: 12:47:32.199: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+caja-dropbox is not installed, doing nothing.
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.209: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.209: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.218: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.218: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.218: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.218: AT-SPI: Could not obtain desktop path or name
+
+
+(process:1947001): indicator-sound-WARNING **: 12:47:32.221: volume-control-pulse.vala:744: Unable to connect to dbus server at 'unix:path=/run/user/88518/pulse/dbus-socket': Could not connect: No such file or directory
+
+(caja:1946839): Gtk-WARNING **: 12:47:32.222: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.223: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.230: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.230: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.231: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+no maximize: true
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.235: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.235: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.235: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.236: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.239: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.239: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.239: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.239: atk-bridge: get_device_events_reply: unknown signature
+
+** (update-notifier:1946971): WARNING **: 12:47:32.239: atk-bridge: get_device_events_reply: unknown signature
+
+** (update-notifier:1946971): WARNING **: 12:47:32.239: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.239: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.239: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.239: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.245: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.245: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.245: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.245: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.245: atk-bridge: get_device_events_reply: unknown signature
+
+** (update-notifier:1946971): WARNING **: 12:47:32.245: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.245: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (update-notifier:1946971): WARNING **: 12:47:32.245: atk-bridge: get_device_events_reply: unknown signature
+
+** (update-notifier:1946971): WARNING **: 12:47:32.245: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.245: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.245: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.250: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.250: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.250: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.250: AT-SPI: Could not obtain desktop path or name
+
+
+** (xiccd:1946966): CRITICAL **: 12:47:32.296: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+*** ERROR ***
+TI:12:47:32	TH:0x564195b4b040	FI:gpm-manager.c	FN:gpm_manager_systemd_inhibit,1786
+ - Error in dbus - GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+Traceback:
+	mate-power-manager(+0x1d1e4) [0x56419467f1e4]
+	mate-power-manager(+0x1466b) [0x56419467666b]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_type_create_instance+0x30d) [0x7fc0d57fd1dd]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(+0x1a34d) [0x7fc0d57dc34d]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_object_new_with_properties+0x275) [0x7fc0d57ddb45]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_object_new+0xc1) [0x7fc0d57de6f1]
+	mate-power-manager(+0x15d06) [0x564194677d06]
+	mate-power-manager(+0xb1aa) [0x56419466d1aa]
+	/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fc0d535c0b3]
+	mate-power-manager(+0xb52e) [0x56419466d52e]
+mate-optimus-applet: launched.
+  - nvidia-settings and prime-select detected.
+  - prime-supported: No
+mate-optimus-applet: NVIDIA Optimus is not supported.
+Window manager warning: 
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.312: AT-SPI: Could not obtain desktop path or name
+
+Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.312: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.312: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.312: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: 
+** (mate-panel:1946824): WARNING **: 12:47:32.320: AT-SPI: Could not obtain desktop path or name
+
+Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.320: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.320: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.320: AT-SPI: Could not obtain desktop path or name
+
+
+** (xiccd:1946966): CRITICAL **: 12:47:32.320: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.326: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.326: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.327: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.327: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.327: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.327: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.331: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.331: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.332: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.332: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.332: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.332: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.332: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.332: atk-bridge: get_device_events_reply: unknown signature
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.332: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.332: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.332: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.332: atk-bridge: get_device_events_reply: unknown signature
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.332: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.332: atk-bridge: get_device_events_reply: unknown signature
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.332: atk-bridge: get_device_events_reply: unknown signature
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.332: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.332: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.335: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.335: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.335: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.336: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.336: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.336: atk-bridge: get_device_events_reply: unknown signature
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.336: atk-bridge: get_device_events_reply: unknown signature
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.336: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: get_device_events_reply: unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: get_device_events_reply: unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: get_device_events_reply: unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: get_device_events_reply: unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: get_device_events_reply: unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: get_device_events_reply: unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: get_device_events_reply: unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: get_device_events_reply: unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: get_device_events_reply: unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: get_device_events_reply: unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.336: atk-bridge: GetRegisteredEvents returned message with unknown signature
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.339: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.339: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.339: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.339: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.339: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.339: atk-bridge: get_device_events_reply: unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.339: atk-bridge: get_device_events_reply: unknown signature
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.339: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.339: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.342: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.342: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.342: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.342: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.342: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.345: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.345: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.345: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.345: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.345: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.345: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.345: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.346: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.346: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.346: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.346: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.346: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.348: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.348: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.348: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.348: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.348: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.348: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.348: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.348: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: get_device_events_reply: unknown signature
+
+** (nm-applet:1946980): WARNING **: 12:47:32.349: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (xiccd:1946966): CRITICAL **: 12:47:32.357: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.359: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.359: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.360: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.361: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.364: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.364: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.364: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.364: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.364: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.364: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.364: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.364: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.364: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.364: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.364: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.364: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.364: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.364: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.364: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.364: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.365: atk-bridge: GetRegisteredEvents returned message with unknown signature
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.368: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.368: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.368: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.368: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.368: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.368: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.368: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.368: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.368: atk-bridge: get_device_events_reply: unknown signature
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.368: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (update-notifier:1946971): WARNING **: 12:47:32.368: AT-SPI: Could not obtain desktop path or name
+
+
+** (xiccd:1946966): CRITICAL **: 12:47:32.378: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+Initializing caja-open-terminal extension
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.420: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.420: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.421: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.421: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.421: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.421: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.421: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.421: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.424: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.425: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.425: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.427: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.427: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.427: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.427: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.427: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.427: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.427: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.427: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.428: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: get_device_events_reply: unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (caja:1946839): WARNING **: 12:47:32.429: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.429: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.429: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.429: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.429: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.429: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.429: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.429: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.429: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.429: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.431: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.431: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.431: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.431: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.431: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.431: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.431: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.431: AT-SPI: Could not obtain desktop path or name
+
+RuntimeError: object at 0x7fc38be7f6c0 of type RenameMenu is not initialized
+RuntimeError: object at 0x7fc38bea2fc0 of type FolderColorMenu is not initialized
+
+** (update-notifier:1946971): WARNING **: 12:47:32.467: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: 
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.467: AT-SPI: Could not obtain desktop path or name
+
+Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.467: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.467: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.467: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.467: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.467: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.467: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.883: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.886: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.886: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.886: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.886: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.886: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.886: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.886: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.886: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.918: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.918: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.922: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.922: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.922: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.922: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.922: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: 
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.922: AT-SPI: Could not obtain desktop path or name
+
+Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.922: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.922: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.944: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:32.948: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.948: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:32.948: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:32.948: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:32.948: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:32.948: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:32.948: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:32.948: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:32.948: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:32.948: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:36.620: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:36.620: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:36.620: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:36.620: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:36.620: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:36.620: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:36.620: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:36.620: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:36.620: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:36.623: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:36.623: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:36.623: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:36.623: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:36.623: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:36.623: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:36.623: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:36.623: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:36.623: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:36.627: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:36.627: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:36.627: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:36.627: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:36.627: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:36.627: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:36.627: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:36.627: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:36.627: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:36.649: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:36.649: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:36.649: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:36.649: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:36.649: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:36.649: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:36.649: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:36.649: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:36.649: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+INFO:root:The HUD is disabled via org.mate.hud in gsettings.
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: 
+** (mate-settings-daemon:1946794): WARNING **: 12:47:47.593: AT-SPI: Could not obtain desktop path or name
+
+Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:47:47.593: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:47.593: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:47.593: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:47.593: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:47.593: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:47.593: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:47.593: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:47.593: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: 
+** (mate-panel:1946824): WARNING **: 12:47:47.599: AT-SPI: Could not obtain desktop path or name
+
+Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:47.599: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:47.599: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:47.599: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:47.599: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:47.599: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:47.599: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:47.599: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:47.599: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:47:47.602: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: 
+** (mate-panel:1946824): WARNING **: 12:47:47.602: AT-SPI: Could not obtain desktop path or name
+
+Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:47:47.602: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:47:47.602: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:47:47.602: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:47:47.602: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:47:47.602: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:47:47.602: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:47:47.602: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: Visible region is null
+
+(caja:1946839): Gtk-WARNING **: 12:47:57.250: Creating a portal monitor failed: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code24: Error calling StartServiceByName for org.freedesktop.impl.portal.desktop.gtk: Timeout was reached
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:48:00.768: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:48:00.768: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:48:00.768: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:48:00.768: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:48:00.768: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:48:00.768: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:48:00.769: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:48:00.769: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:48:00.769: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:48:00.772: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:48:00.772: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:48:00.772: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:48:00.772: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:48:00.772: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:48:00.772: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:48:00.772: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:48:00.772: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:48:00.772: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:48:00.775: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:48:00.775: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:48:00.775: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:48:00.775: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:48:00.775: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:48:00.775: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:48:00.775: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:48:00.775: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:48:00.775: AT-SPI: Could not obtain desktop path or name
+
+mate-session[1946664]: WARNING: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-settings-daemon:1946794): WARNING **: 12:48:00.778: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-panel:1946824): WARNING **: 12:48:00.778: AT-SPI: Could not obtain desktop path or name
+
+
+** (caja:1946839): WARNING **: 12:48:00.778: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-screensaver:1946975): WARNING **: 12:48:00.778: AT-SPI: Could not obtain desktop path or name
+
+
+** (mate-maximus:1946978): WARNING **: 12:48:00.778: AT-SPI: Could not obtain desktop path or name
+
+
+** (update-notifier:1946971): WARNING **: 12:48:00.778: AT-SPI: Could not obtain desktop path or name
+
+
+** (polkit-mate-authentication-agent-1:1947021): WARNING **: 12:48:00.778: AT-SPI: Could not obtain desktop path or name
+
+
+** (nm-applet:1946980): WARNING **: 12:48:00.778: AT-SPI: Could not obtain desktop path or name
+
+
+** (evolution-alarm-notify:1947041): WARNING **: 12:48:00.778: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: AT-SPI: Could not obtain desktop path or name
+
+Window manager warning: Log level 16: Visible region is null
+Window manager warning: Log level 8: g_main_loop_is_running: assertion 'loop != NULL' failed
+
+** (mate-settings-daemon:1946794): WARNING **: 12:58:30.124: failed to send session response: Connection was disconnected before a reply was received
+
+(process:1947001): indicator-sound-WARNING **: 12:58:30.127: Name lost or unable to acquire bus: com.canonical.indicator.sound
+Window manager warning: Log level 8: g_main_loop_is_running: assertion 'loop != NULL' failed
+Indicator-Datetime-Message: 12:58:30.128: indicator-datetime exiting; failed/lost bus ownership
+
+** (xiccd:1946966): WARNING **: 12:58:30.128: Exiting
+
+(process:1946939): indicator-application-service-WARNING **: 12:58:30.129: Name Lost
+[1644342452,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
+
+(process:1947001): GLib-GObject-CRITICAL **: 12:58:30.345: g_object_ref: assertion 'old_val > 0' failed
+
+(process:1947001): GLib-GIO-CRITICAL **: 12:58:30.345: Error while sending AddMatch() message: The connection is closed
+
+(process:1947001): GLib-GIO-CRITICAL **: 12:58:30.345: Error while sending AddMatch() message: The connection is closed
+
+(process:1947001): GLib-GIO-CRITICAL **: 12:58:30.345: Error while sending AddMatch() message: The connection is closed
+
+(process:1947001): GLib-GIO-CRITICAL **: 12:58:30.345: Error while sending AddMatch() message: The connection is closed
+Xsession: X session started for hnn13 at Tue 08 Feb 2022 01:10:11 PM EST
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/88518/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:hnn13 being added to access control list
+dbus-update-activation-environment: setting GTK_MODULES=appmenu-gtk-module:gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANGUAGE=en_US.UTF-8
+dbus-update-activation-environment: setting USER=hnn13
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting HOME=/common/home/hnn13
+dbus-update-activation-environment: setting GTK_MODULES=appmenu-gtk-module:gail:atk-bridge
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/88518/bus
+dbus-update-activation-environment: setting LIBVIRT_DEFAULT_URI=qemu:///system
+dbus-update-activation-environment: setting UBUNTU_MENUPROXY=1
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=hnn13
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting LC_TYPE=en_US.UTF-8 
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/88518
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting UID=88518
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting KRB5CCNAME=KEYRING:persistent:88518
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/88518/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/default-java
+dbus-update-activation-environment: setting PWD=/common/home/hnn13
+dbus-update-activation-environment: setting LC_ALL=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting GUACAMOLE=true
+mate-session-check-accelerated: GL Helper exited with code 512
+mate-session-check-accelerated: GLES Helper exited with code 512
+** Message: 13:10:11.561: couldn't access control socket: /run/user/88518/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+mate-session[1954210]: WARNING: Unable to find provider '' of required component 'dock'
+
+** (mate-settings-daemon:1954363): WARNING **: 13:10:11.678: Could not open RFKILL control device, please verify your installation
+Window manager warning: Log level 128: unsetenv() is not thread-safe and should not be used after threads are created
+Window manager warning: Log level 128: Name com.canonical.AppMenu.Registrar does not exist on the session bus
+
+mate-session[1954210]: WARNING: Could not launch application 'blueman.desktop': Unable to start application: Failed to execute child process “blueman-applet” (No such file or directory)
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+
+** (light-locker:1954455): ERROR **: 13:10:11.872: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+** (xiccd:1954518): WARNING **: 13:10:11.872: EDID is empty
+
+** (xiccd:1954518): CRITICAL **: 13:10:11.874: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+
+** (xiccd:1954518): CRITICAL **: 13:10:11.880: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+caja-dropbox is not installed, doing nothing.
+
+** (xiccd:1954518): CRITICAL **: 13:10:11.885: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+
+** (xiccd:1954518): CRITICAL **: 13:10:11.893: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+(process:1954563): indicator-sound-WARNING **: 13:10:11.893: volume-control-pulse.vala:744: Unable to connect to dbus server at 'unix:path=/run/user/88518/pulse/dbus-socket': Could not connect: No such file or directory
+
+(caja:1954398): Gtk-WARNING **: 13:10:11.895: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+no maximize: true
+*** ERROR ***
+TI:13:10:11	TH:0x5611f60cd440	FI:gpm-manager.c	FN:gpm_manager_systemd_inhibit,1786
+ - Error in dbus - GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+Traceback:
+	mate-power-manager(+0x1d1e4) [0x5611f50151e4]
+	mate-power-manager(+0x1466b) [0x5611f500c66b]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_type_create_instance+0x30d) [0x7f405d6801dd]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(+0x1a34d) [0x7f405d65f34d]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_object_new_with_properties+0x275) [0x7f405d660b45]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_object_new+0xc1) [0x7f405d6616f1]
+	mate-power-manager(+0x15d06) [0x5611f500dd06]
+	mate-power-manager(+0xb1aa) [0x5611f50031aa]
+	/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f405d1df0b3]
+	mate-power-manager(+0xb52e) [0x5611f500352e]
+mate-optimus-applet: launched.
+  - nvidia-settings and prime-select detected.
+  - prime-supported: No
+mate-optimus-applet: NVIDIA Optimus is not supported.
+Initializing caja-open-terminal extension
+RuntimeError: object at 0x7f69cbd4e180 of type RenameMenu is not initialized
+RuntimeError: object at 0x7f69cbd72a40 of type FolderColorMenu is not initialized
+INFO:root:The HUD is disabled via org.mate.hud in gsettings.
+Window manager warning: Log level 16: Visible region is null
+Window manager warning: Log level 8: g_main_loop_is_running: assertion 'loop != NULL' failed
+Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
+Window manager warning: Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
+
+(process:1954563): indicator-sound-WARNING **: 13:36:24.499: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1954494): indicator-application-service-WARNING **: 13:36:24.499: Name Lost
+
+** (mate-settings-daemon:1954363): WARNING **: 13:36:24.499: failed to send session response: Connection was disconnected before a reply was received
+Indicator-Datetime-Message: 13:36:24.500: indicator-datetime exiting; failed/lost bus ownership
+
+** (xiccd:1954518): WARNING **: 13:36:24.501: Exiting
+Window manager warning: Log level 8: g_main_loop_is_running: assertion 'loop != NULL' failed
+[1644343811,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
+
+(process:1954563): GLib-GObject-CRITICAL **: 13:36:26.353: g_object_ref: assertion 'old_val > 0' failed
+
+(process:1954563): GLib-GIO-CRITICAL **: 13:36:26.354: Error while sending AddMatch() message: The connection is closed
+
+(process:1954563): GLib-GIO-CRITICAL **: 13:36:26.354: Error while sending AddMatch() message: The connection is closed
+
+(process:1954563): GLib-GIO-CRITICAL **: 13:36:26.355: Error while sending AddMatch() message: The connection is closed
+
+(process:1954563): GLib-GIO-CRITICAL **: 13:36:26.355: Error while sending AddMatch() message: The connection is closed
+Xsession: X session started for hnn13 at Sun 13 Feb 2022 06:02:24 PM EST
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/88518/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:hnn13 being added to access control list
+dbus-update-activation-environment: setting GTK_MODULES=appmenu-gtk-module:gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANGUAGE=en_US.UTF-8
+dbus-update-activation-environment: setting USER=hnn13
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting HOME=/common/home/hnn13
+dbus-update-activation-environment: setting GTK_MODULES=appmenu-gtk-module:gail:atk-bridge
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/88518/bus
+dbus-update-activation-environment: setting LIBVIRT_DEFAULT_URI=qemu:///system
+dbus-update-activation-environment: setting UBUNTU_MENUPROXY=1
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=hnn13
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting LC_TYPE=en_US.UTF-8 
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/88518
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting UID=88518
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting KRB5CCNAME=KEYRING:persistent:88518
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/88518/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/default-java
+dbus-update-activation-environment: setting PWD=/common/home/hnn13
+dbus-update-activation-environment: setting LC_ALL=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting GUACAMOLE=true
+mate-session-check-accelerated: GL Helper exited with code 512
+mate-session-check-accelerated: GLES Helper exited with code 512
+** Message: 18:02:24.526: couldn't access control socket: /run/user/88518/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+mate-session[546661]: WARNING: Unable to find provider '' of required component 'dock'
+
+** (mate-settings-daemon:546821): WARNING **: 18:02:24.639: Could not open RFKILL control device, please verify your installation
+Window manager warning: Log level 128: unsetenv() is not thread-safe and should not be used after threads are created
+Window manager warning: Log level 128: Name com.canonical.AppMenu.Registrar does not exist on the session bus
+
+mate-session[546661]: WARNING: Could not launch application 'blueman.desktop': Unable to start application: Failed to execute child process “blueman-applet” (No such file or directory)
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+
+** (xiccd:546967): WARNING **: 18:02:24.823: EDID is empty
+
+** (xiccd:546967): CRITICAL **: 18:02:24.825: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+
+** (light-locker:546899): ERROR **: 18:02:24.827: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+** (xiccd:546967): CRITICAL **: 18:02:24.830: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+
+** (xiccd:546967): CRITICAL **: 18:02:24.835: unable to create profile: failed to obtain org.freedesktop.color-manager.create-profile auth
+caja-dropbox is not installed, doing nothing.
+SSH_AUTH_SOCK=/run/user/88518/keyring/ssh
+
+(process:547010): indicator-sound-WARNING **: 18:02:24.845: volume-control-pulse.vala:744: Unable to connect to dbus server at 'unix:path=/run/user/88518/pulse/dbus-socket': Could not connect: No such file or directory
+
+(caja:546853): Gtk-WARNING **: 18:02:24.849: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+
+** (xiccd:546967): CRITICAL **: 18:02:24.861: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+no maximize: true
+*** ERROR ***
+TI:18:02:24	TH:0x55f5efca5410	FI:gpm-manager.c	FN:gpm_manager_systemd_inhibit,1786
+ - Error in dbus - GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+Traceback:
+	mate-power-manager(+0x1d1e4) [0x55f5ef8df1e4]
+	mate-power-manager(+0x1466b) [0x55f5ef8d666b]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_type_create_instance+0x30d) [0x7fae818f21dd]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(+0x1a34d) [0x7fae818d134d]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_object_new_with_properties+0x275) [0x7fae818d2b45]
+	/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_object_new+0xc1) [0x7fae818d36f1]
+	mate-power-manager(+0x15d06) [0x55f5ef8d7d06]
+	mate-power-manager(+0xb1aa) [0x55f5ef8cd1aa]
+	/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fae814510b3]
+	mate-power-manager(+0xb52e) [0x55f5ef8cd52e]
+mate-optimus-applet: launched.
+  - nvidia-settings and prime-select detected.
+  - prime-supported: No
+mate-optimus-applet: NVIDIA Optimus is not supported.
+Initializing caja-open-terminal extension
+RuntimeError: object at 0x7ffb8f8edac0 of type RenameMenu is not initialized
+RuntimeError: object at 0x7ffb8f8bb1c0 of type FolderColorMenu is not initialized
+INFO:root:The HUD is disabled via org.mate.hud in gsettings.
+Window manager warning: Log level 16: Visible region is null
+Window manager warning: Log level 16: Visible region is null
+
+** (mate-settings-daemon:546821): WARNING **: 18:42:17.908: failed to send session response: Connection was disconnected before a reply was received
+Window manager warning: Log level 8: g_main_loop_is_running: assertion 'loop != NULL' failed
+Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
+Window manager warning: Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
+
+(process:547010): indicator-sound-WARNING **: 18:42:17.915: Name lost or unable to acquire bus: com.canonical.indicator.sound
+Indicator-Datetime-Message: 18:42:17.916: indicator-datetime exiting; failed/lost bus ownership
+[1644793344,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
+
+(process:546941): indicator-application-service-WARNING **: 18:42:17.919: Name Lost
+
+** (xiccd:546967): WARNING **: 18:42:17.921: Exiting
+Window manager warning: Log level 8: g_main_loop_is_running: assertion 'loop != NULL' failed
+
+(process:547010): GLib-GObject-CRITICAL **: 18:42:18.400: g_object_ref: assertion 'old_val > 0' failed
+
+(process:547010): GLib-GIO-CRITICAL **: 18:42:18.401: Error while sending AddMatch() message: The connection is closed
+
+(process:547010): GLib-GIO-CRITICAL **: 18:42:18.401: Error while sending AddMatch() message: The connection is closed
+
+(process:547010): GLib-GIO-CRITICAL **: 18:42:18.401: Error while sending AddMatch() message: The connection is closed
+
+(process:547010): GLib-GIO-CRITICAL **: 18:42:18.402: Error while sending AddMatch() message: The connection is closed
