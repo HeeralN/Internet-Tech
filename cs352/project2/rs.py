@@ -75,4 +75,5 @@ def rs():
 
 
 if __name__ == "__main__":
+    # TODO add to server main
     pass
