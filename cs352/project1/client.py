@@ -4,6 +4,7 @@ import random
 
 import socket
 
+# python client.py rsHostname rsListenPort
 def client():
     try:
         cs = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

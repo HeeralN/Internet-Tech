@@ -25,7 +25,7 @@ def ts():
     # Build lookup table
     table = dict()
     inputFile = open("PROJ2-DNSTS2.txt", 'r')
-    inputlines = inputFile.read().toLower().splitlines()
+    inputlines = inputFile.read().lower().splitlines()
 
     for line in inputlines:
         splitLine = line.split()
@@ -36,13 +36,14 @@ def ts():
     while True:
         # Recieve query
         query=csockid.recv(100).decode('utf-8')
-
-        # Resolve query and send back response (or not)
-        try:
-            response = table[query]
-            csockid.send(response.encode('utf-8'))
-        except KeyError:
-            pass
+        if query != u'':
+            print("ts1", query)
+            # Resolve query and send back response (or not)
+            try:
+                response = table[query]
+                csockid.send(response.encode('utf-8'))
+            except KeyError:
+                pass
 
 if __name__ == "__main__":
     t1 = threading.Thread(name='ts2', target=ts)

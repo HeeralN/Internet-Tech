@@ -25,17 +25,18 @@ def client(sHostname, sListenPort, id):
     outputFile = open("RESOLVED.txt", 'w+')
 
     # Send query to rs
+    print(inputlines)
     for line in inputlines:
         cs.send(line.encode())
-        # data_from_server=cs.recv(200).decode('utf-8')
-        # print("[C]: Data received: {}".format(data_from_server))
-        # outputFile.write(data_from_server)
-
+        data_from_server=cs.recv(200).decode('utf-8')
+        print("[C]: Data received: {}".format(data_from_server))
+        outputFile.write(data_from_server)
+    '''
     # Recieve response from rs. Fill in dictionary
     for i in range(len(inputlines)):
-        response=cs.recv(200).decode('utf-8')
+        response = cs.recv(200).decode('utf-8')
         outputFile.write(response)
-
+    '''
     # close files
     inputFile.close()
     outputFile.close()
@@ -45,5 +46,5 @@ def client(sHostname, sListenPort, id):
     exit()
 
 if __name__ == "__main__":
-    # TODO
+    client('', 50007, 1)
     pass
