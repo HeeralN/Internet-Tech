@@ -1,34 +1,48 @@
-import socket
 import sys
-import time
+import socket
 
-def client(sHostname, sListenPort, id):
+def client(sHostname, sListenPort):
     try:
         cs = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         print("[C]: Client socket created")
     except socket.error as err:
         print('socket open error: {} \n'.format(err))
         exit()
-
-    sListenPort = int(sListenPort)
-    sHostname = socket.gethostbyname(sHostname)
+    
+    # Define the port on which you want to connect to the server
+    port = 50007
+    localhost_addr = socket.gethostbyname(socket.gethostname())
 
     # connect to the server on local machine
-    server_binding = (sHostname, sListenPort)
+    server_binding = (sHostname, sListenPort) #TODO double check this
     cs.connect(server_binding)
 
-    msg = "Hello! from client "+str(id)
+    # read data from input file
+    inputFile = open("PROJ2-HNS.txt", 'r')
+    inputlines = inputFile.read().splitlines()
+    
+    # open write file
+    outputFile = open("RESOLVED.txt", 'w+')
+    
+    # Send query to rs
+    for line in inputlines:
+        cs.send(line.encode())
+        data_from_server=cs.recv(200).decode('utf-8')
+        print("[C]: Data received: {}".format(data_from_server))
+        outputFile.write(data_from_server + '\n')
+    
+    # close files
+    inputFile.close()
+    outputFile.close()
 
-    cs.send(msg.encode("utf-8"))
-
-    data = cs.recv(200)
-    print(data.decode('utf-8'))
-    time.sleep(15)
+    # close the client socket
     cs.close()
     exit()
 
 
 if __name__ == "__main__":
-    localhost = socket.gethostbyname(socket.gethostname())
-    client(localhost, 50020, 1)
-    print("done.")
+    client( sys.argv[1], int(sys.argv[2]))
+    
+    # client.py localhost 50007
+
+

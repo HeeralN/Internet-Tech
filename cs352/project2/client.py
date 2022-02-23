@@ -25,7 +25,6 @@ def client(sHostname, sListenPort, id):
     outputFile = open("RESOLVED.txt", 'w+')
 
     # Send query to rs
-    print(inputlines)
     for line in inputlines:
         cs.send(line.encode())
         data_from_server=cs.recv(200).decode('utf-8')

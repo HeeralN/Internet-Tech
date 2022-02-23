@@ -45,37 +45,49 @@ def rs(rsListenPort, ts1Hostname, ts1ListenPort, ts2Hostname, ts2ListenPort):
     # Start accepting data from the client
     rsockid, addr = rs_socket.accept()
     rsockid.setblocking(0)
+    
     # ts1sockid, addr1 = ts1_socket.accept()
     # ts2sockid, addr2 = ts2_socket.accept()
 
-    inputs = [rsockid, ts1_socket, ts2_socket]
-    ss = [rs_socket, ts1_socket, ts2_socket]
+    # inputs = [rsockid, ts1_socket, ts2_socket]
+    # inputs = [rs_socket]
+    inputs = [rsockid]
+    print("initial inputs: {}".format(inputs))
+    #ss = [rs_socket, ts1_socket, ts2_socket]
+    ss = rs_socket
 
     message_buffer = {}
-    # inputs = [rsockid, ts1sockid, ts2sockid]
-    outputs = []
+    outputs = [ts1_socket, ts2_socket]
+    print("initial outputs: {}".format(outputs))
 
     while inputs:
         readable, writable, errors = select.select(inputs, outputs, [], 5)
+        print("\n############################")
         print(readable, writable, errors)
 
         if readable or writable:
             for r in readable:
-                if r in ss:
+                print("readable")
+                if r is ss:
+                    print("readable: accepting...")
                     conn, add = r.accept()
                     conn.setblocking(0)
                     inputs.append(conn)
+                    print("inputs: {}".format(inputs))
 
                 else:
+                    print("readable: receiving data...")
                     data = r.recv(200)
-                    print("Message from client:{}".format(data.decode('utf-8')))
+                    print("Message received:{}".format(data.decode('utf-8')))
                     outputs.append(r)
-                    print(r)
+                    print("recieved from socket: ",r)
                     message_buffer[r] = data
                     inputs.remove(r)
 
             for w in writable:
+                print("writable to: {}".format(w))
                 msg = message_buffer[w]
+                print("msg: {}".format(msg))
                 w.send(msg)
                 outputs.remove(w)
         else:
@@ -85,6 +97,8 @@ def rs(rsListenPort, ts1Hostname, ts1ListenPort, ts2Hostname, ts2ListenPort):
 
     # Close the server socket
     rs_socket.close()
+    ts1_socket.close()
+    ts2_socket.close()
 
 
 if __name__ == "__main__":
