@@ -46,11 +46,11 @@ success_page = """
 #### Helper functions
 # Printing.
 def print_value(tag, value):
-    print "Here is the", tag
-    print "\"\"\""
-    print value
-    print "\"\"\""
-    print
+    print("Here is the", tag)
+    print("\"\"\"")
+    print(value)
+    print("\"\"\"")
+    print()
 
 # Signal handler for graceful exit
 def sigint_handler(sig, frame):
@@ -65,8 +65,20 @@ signal.signal(signal.SIGINT, sigint_handler)
 # Read login credentials for all the users
 # Read secret data of all the users
 
+# Password database {key: (pw, secret)}
+data = dict()
+pwFile = open("passwords.txt", 'r')
+secretsFile = open("secrets.txt", 'r')
+pwFile = pwFile.read().splitlines()
+secretsFile = secretsFile.read().splitlines()
 
+for line in pwFile:
+    splitLine = line.split()
+    data[splitLine[0]] = (splitLine[1],)
 
+for line in secretsFile:
+    splitLine = line.split()
+    data[splitLine[0]] = (data[splitLine[0]][0], splitLine[1])
 
 ### Loop to accept incoming HTTP connections and respond.
 while True:
@@ -82,14 +94,40 @@ while True:
 
     # TODO: Put your application logic here!
     # Parse headers and body and perform various actions
+    # body = "username=bezos&password=amazon"
+    # body = "username=bezos"
+
+    username = password = action = None
+    body = body.split('&') if body != '' else []
+    print('body', body)
+    for field in body:
+        param = field.split('=')
+        if param[0] == 'username':
+            username = param[1]
+        elif param[0] == 'password':
+            password = param[1]
+        elif param[0] == 'action':
+            action = 'logout'
+
+    if username == None and password == None:  # Default login
+        html_content_to_send = login_page 
+    elif username in data and data[username][0] == password: # Good login
+        html_content_to_send = success_page + data[username][1]  # success page + secret
+    elif username is None or password is None or username not in data or password != data[username][0]: # empty or incorrect fields
+        html_content_to_send = bad_creds_page # Retry login
+    elif action == 'logout':
+        html_content_to_send = logout_page
+    else: # Default login, should never get here
+        html_content_to_send = login_page 
+
 
     # You need to set the variables:
     # (1) `html_content_to_send` => add the HTML content you'd
     # like to send to the client.
     # Right now, we just send the default login page.
-    html_content_to_send = login_page
+    # html_content_to_send = login_page
     # But other possibilities exist, including
-    # html_content_to_send = success_page + <secret>
+
     # html_content_to_send = bad_creds_page
     # html_content_to_send = logout_page
     
@@ -107,8 +145,8 @@ while True:
     client.send(response)
     client.close()
     
-    print "Served one request/connection!"
-    print
+    print("Served one request/connection!")
+    print()
 
 # We will never actually get here.
 # Close the listening socket
