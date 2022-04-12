@@ -1,7 +1,7 @@
 import sys
 import socket
 
-def client(sHostname, sListenPort, id):
+def client(sHostname, sListenPort):
     try:
         cs = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         print("[C]: Client socket created")
@@ -23,19 +23,14 @@ def client(sHostname, sListenPort, id):
     
     # open write file
     outputFile = open("RESOLVED.txt", 'w+')
-
+    
     # Send query to rs
     for line in inputlines:
         cs.send(line.encode())
         data_from_server=cs.recv(200).decode('utf-8')
         print("[C]: Data received: {}".format(data_from_server))
-        outputFile.write(data_from_server)
-    '''
-    # Recieve response from rs. Fill in dictionary
-    for i in range(len(inputlines)):
-        response = cs.recv(200).decode('utf-8')
-        outputFile.write(response)
-    '''
+        outputFile.write(data_from_server + '\n')
+    
     # close files
     inputFile.close()
     outputFile.close()
@@ -44,6 +39,10 @@ def client(sHostname, sListenPort, id):
     cs.close()
     exit()
 
+
 if __name__ == "__main__":
-    client('', 50007, 1)
-    pass
+    client( sys.argv[1], int(sys.argv[2]))
+    
+    # client.py localhost 50007
+
+

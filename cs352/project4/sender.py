@@ -4,6 +4,7 @@ import random
 import socket
 import select
 import argparse
+import queue
 from functools import reduce
 
 # Settings
@@ -169,17 +170,65 @@ def send_reliable(cs, filedata, receiver_binding, win_size):
 
     # TODO: This is where you will make your changes. You
     # will not need to change any other parts of this file.
-    # while win_left_edge < INIT_SEQNO + content_len:
-    #     win_left_edge = transmit_one()
 
-    while True:
-        if win_left_edge in seq_to_msgindex:
-            
-            pass
-        else:
-            break
+    while win_left_edge < INIT_SEQNO + content_len:
+        win_left_edge = transmit_one()
+        print(Msg.deserialize(cs.recvfrom(100)[0]))
+
+    # 1. inf loop select read receiver
+    # 2. RTO as select timeout
+    # 3. Deserialize message
+    # 4. msg.ack as left edge of window
+    # 5. if seq_num in seq_to_msg: transmit else break
+    # 6. retransmit on timeout
+
+    # inputs = [cs]
+    # outputs = []
+    # message_queues = {}
+    # while inputs:
+    #     print(inputs, outputs)
+    #     readable, writable, exceptional = select.select(inputs, outputs, inputs, RTO)
         
+    #     for s in readable:
+    #         if s is cs:
+    #             connection, client_address = s.accept()
+    #             connection.setblocking(0)
+    #             inputs.append(connection)
 
+    #             message_queues[connection] = queue.queue()
+
+    #         else:
+    #             data_from_receiver, receiver_address = s.recvfrom(100)
+    #             if data_from_receiver:
+    #                 msg = data_from_receiver.deserialize()
+    #                 print(msg)
+    #                 if s not in outputs:
+    #                     outputs.append(s)
+    #             else:
+    #                 if s in outputs:
+    #                     outputs.remove(s)
+    #                 inputs.remove(s)
+    #                 s.close()
+                    
+    #                 del message_queues[s]
+        
+    #     for s in writable:
+    #         try:
+    #             next_msg = message_queues[s].get_nowait()
+    #         except queue.Empty:
+    #             print("Queue empty")
+    #         else:
+    #             print(f"sending: {next_msg}")
+    #             s.sendto(next_msg.serialize(), receiver_binding)
+
+    #     for s in exceptional:
+    #         print(f'exception on {s}')
+    #         inputs.remove(s)
+    #         if s in outputs:
+    #             outputs.remove(s)
+    #         s.close()
+
+    #         del message_queues[s]
 
 if __name__ == "__main__":
     args = parse_args()

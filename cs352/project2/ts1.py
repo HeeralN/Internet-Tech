@@ -1,13 +1,10 @@
-import threading
-import time
-import random
-
+import sys
 import socket
 
 def ts1(portNum):
     try:
         ss = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        print("[S]: Server socket created")
+        print("[TS1]: Server socket created")
     except socket.error as err:
         print('socket open error: {}\n'.format(err))
         exit()
@@ -16,41 +13,40 @@ def ts1(portNum):
     ss.bind(server_binding)
     ss.listen(1)
     host = socket.gethostname()
-    print("[S]: Server host name is {}".format(host))
+    print("[TS1]: Server host name is {}".format(host))
+
     localhost_ip = (socket.gethostbyname(host))
-    print("[S]: Server IP address is {}".format(localhost_ip))
+    print("[TS1]: Server IP address is {}".format(localhost_ip))
+    
     csockid, addr = ss.accept()
-    print ("[S]: Got a connection request from a client at {}".format(addr))
+    print ("[TS1]: Got a connection request from a client at {}".format(addr))
 
     # Build lookup table
-    table = dict()
+    dns = dict()
     inputFile = open("PROJ2-DNSTS1.txt", 'r')
-    inputlines = inputFile.read().lower().splitlines()
-
+    inputlines = inputFile.read().splitlines()
+    
     for line in inputlines:
-        splitLine = line.split()
-        table[splitLine[0]] = splitLine[1] + " " + splitLine[2]
-
-    # print(table)
+        dns[line.split()[0].lower()] = line
+    
 
     while True:
-        # Recieve query
-        query = csockid.recv(100).decode('utf-8')
-        
-        print("Message received from rs:{}".format(query.decode('utf-8')))
-        
-        if query != u'':   # TODO update later
-            print("ts1", query)
-            # Resolve query and send back response (or not)
-            try:
-                response = table[query]
-                csockid.send(response.encode('utf-8'))
-            except KeyError:
-                pass
+        data = csockid.recv(4096).decode("utf-8").strip()
+        data_lower = data.lower()
+        if not data:
+            break
+        print("[TS1]: Received Message: " + data)
+		
+        if data_lower in dns:
+            print("[TS1]: Data found in DNS")
+            ret = dns.get(data_lower) + " IN"
+            csockid.send(ret.encode("utf-8"))
             
+    csockid.close()
+    ss.close()
+    exit()
+
 
 if __name__ == "__main__":
-    #t1 = threading.Thread(name='ts1', target=ts)
-    #t1.start()
-
-    ts1(50008)  # TODO remove port number later
+    # ts1(50008)
+    ts1(int(sys.argv[1]))
