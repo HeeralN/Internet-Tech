@@ -190,55 +190,23 @@ def send_reliable(cs, filedata, receiver_binding, win_size):
     # 4. msg.ack as left edge of window
     # 5. if seq_num in seq_to_msg: transmit else break
     # 6. retransmit on timeout
-    
-    # print(messages)
-    # print(seq_to_msgindex)
-    # print()
-    # win_left_edge = transmit_one()
     inputs = [cs]
     outputs = []
     error = []
     while inputs:
-        # print(inputs, outputs)
         readable, writable, exceptional = select.select(inputs, outputs, error, RTO)
-        #print('select:', readable, writable, exceptional)
-
-        # sleep(1)
-
         if readable:
             # Recieved ACK
             data, addr = cs.recvfrom(100)
             msg = Msg.deserialize(data)
-            # store in a buffer
-            
-            # print(f'[S] Recieved: {str(msg)}') 
             try:
                 win_left_edge += len(messages[seq_to_msgindex[msg.ack] - 1])
-                # print(f'updated win_left_edge to {win_left_edge}')
             except KeyError:
                 break
 
         else:
             # No ACK
             transmit_one()
-
-        # print()
-
-        # dict[ack] gives msg_index
-        # look msg list at index msg_index 
-        # len(msg[msg_index])
-        # len(msg[seq_to_msg[ack]])
-        # 
-        # 
-        
-
-        # for s in writable:
-            # transmit_one()
-
-        # for s in exceptional:
-        #     print(f'exception on {s}')
-
-
 
 
 if __name__ == "__main__":
