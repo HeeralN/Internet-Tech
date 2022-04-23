@@ -181,14 +181,16 @@ def send_reliable(cs, filedata, receiver_binding, win_size):
                 m = Msg(latest_tx, __ACK_UNUSED, msg)
                 if m.seq not in buffer: 
                     buffer.append(m.seq)
-                # print ("Buffered {}".format(str(m)))
+                    print ("Buffered {}".format(str(m)))
                 latest_tx += len(msg)
             else:
-                break
+                break      
         
         latest_tx = transmit_entire_window_from(first_to_tx)
-        if latest_tx in seq_to_msgindex:
-            first_to_tx = latest_tx # + len(messages[seq_to_msgindex[latest_tx]])
+        print("latest_tx: ", latest_tx)
+        #if latest_tx in seq_to_msgindex:
+        first_to_tx = latest_tx #+ len(messages[seq_to_msgindex[latest_tx]])
+        print("first_tx: ", first_to_tx)
         return first_to_tx
     
 
@@ -206,10 +208,12 @@ def send_reliable(cs, filedata, receiver_binding, win_size):
     
 
     last_seq = lambda x: x - len(messages[seq_to_msgindex[x] - 1])
-
+    i = 0
     while win_left_edge < final_ack:
+        if i == 3: break
+        i += 1
         # buffer.remove(-1)
-        #print("Buffer: ",buffer)
+        print("\nBuffer: ",buffer)
         readable, writable, exceptional = select.select(inputs, outputs, error, RTO)
 
         if readable: # Received ACK
@@ -217,31 +221,31 @@ def send_reliable(cs, filedata, receiver_binding, win_size):
             data, addr = cs.recvfrom(100)
             msg = Msg.deserialize(data)
 
-            print("\nReceived: ", str(msg))
-            # print(win_left_edge, win_right_edge)
+            print("Received: ", str(msg))
+            print(win_left_edge, win_right_edge)
             last_acked = msg.ack  # highest ACK received
-
+            print("last_acked: ", last_acked)
             # Remove packets from buffer up to but not including last_acked
             for p in buffer:
                 if p < last_acked:
                     buffer.remove(p)
-            # print("Removed: ", buffer)
+            print("Updated: ", buffer)
 
             # Update window upon ack and transmit next packet. 
             # Don't slide past last_acked because it may be dropped packet
             if (win_left_edge <= last_acked):
                 win_left_edge = msg.ack if msg.ack < final_ack else win_left_edge
                 win_right_edge = min(win_left_edge + win_size, INIT_SEQNO + content_len)
-                print("win_left_edge: ", win_left_edge)
                 print("win_right_edge: ", win_right_edge)
 
                 # Transmit 
                 first_to_tx = buffering_transmit_window(first_to_tx)
-                # print("buffered: ", buffer)
-                # print("second first_to_tx: ",first_to_tx)
+                print("buffered: ", buffer)
+                print("second first_to_tx: ",first_to_tx)
         else:
-
+            print("hoahfawe")
             if buffer:
+                print("awefa333333")
                 # RTO occurred, retransmit last ack'd
                 temp_left = win_left_edge
                 win_left_edge = buffer[0]
@@ -251,29 +255,16 @@ def send_reliable(cs, filedata, receiver_binding, win_size):
             else:
                 # Initial transmission 
                 first_to_tx = buffering_transmit_window(first_to_tx)
-                # print("initial first_to_tx: ",first_to_tx)
-                # print("buffered: ", buffer)
+                print("initial first_to_tx: ",first_to_tx)
+                print("buffered: ", buffer)
                 if first_to_tx >= final_ack:
                     break
-
-            readable, writable, exceptional = select.select(inputs, outputs, error, RTO)
     
-    while buffer:
-        # Received ACK
-        data, addr = cs.recvfrom(100)
-        msg = Msg.deserialize(data)
-        try:
-            win_left_edge += len(messages[seq_to_msgindex[msg.ack] - 1])
-        except KeyError:
-            break
-        
-        # No ACK
-        win_left_edge = buffer[0]
-        transmit_one()
-        buffer.remove(buffer[0])
-   
+    print("seq_to_msgindex: ",seq_to_msgindex)
 
-    
+
+
+
 
 if __name__ == "__main__":
     args = parse_args()

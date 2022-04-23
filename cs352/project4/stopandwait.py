@@ -130,6 +130,10 @@ def send_reliable(cs, filedata, receiver_binding, win_size):
     global __ACK_UNUSED
     messages, content_len, seq_to_msgindex = chunk_data(filedata)
 
+    print(messages)
+    print(content_len)
+    print(seq_to_msgindex)
+
     win_left_edge = INIT_SEQNO
     win_right_edge = min(win_left_edge + win_size,
                          INIT_SEQNO + content_len)
@@ -172,18 +176,6 @@ def send_reliable(cs, filedata, receiver_binding, win_size):
     # TODO: This is where you will make your changes. You
     # will not need to change any other parts of this file.
 
-    # cs.settimeout(int(RTO))
-    # while win_left_edge < INIT_SEQNO + content_len:
-    #     win_left_edge = transmit_one()
-    #     try:
-    #         # ACK Recieved
-    #         data = cs.recvfrom(100)
-    #         msg = Msg.deserialize(data[0])
-    #     except socket.timeout:
-    #         # ACK Lost
-    #         win_left_edge -= content_len
-
-
     # 1. inf loop select read receiver
     # 2. RTO as select timeout
     # 3. Deserialize message
@@ -193,17 +185,26 @@ def send_reliable(cs, filedata, receiver_binding, win_size):
     inputs = [cs]
     outputs = []
     error = []
+    print("win_left_edge = {}".format(win_left_edge))
     while inputs:
         readable, writable, exceptional = select.select(inputs, outputs, error, RTO)
         if readable:
-            # Recieved ACK
+            # Received ACK
             data, addr = cs.recvfrom(100)
             msg = Msg.deserialize(data)
+            print("msg: ",msg)
             try:
+                print("\nACK: {}".format(msg.ack))  # ACK number for that packet
+                print("seq_to_msgindex: {}".format(seq_to_msgindex[msg.ack]))  # message line number index, use this index in messages[] to get message
+                print("Message at ACK: {}".format(messages[seq_to_msgindex[msg.ack]]))
+                # print("seq_to_msgindex - 1: {}".format(seq_to_msgindex[msg.ack]-1))
+                # print("Message at ACK-1: {}".format(messages[seq_to_msgindex[msg.ack]-1]))
+    
                 win_left_edge += len(messages[seq_to_msgindex[msg.ack] - 1])
+
+                print("win_left_edge = {}".format(win_left_edge))
             except KeyError:
                 break
-
         else:
             # No ACK
             transmit_one()
